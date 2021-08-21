@@ -24,3 +24,17 @@ in computer there are divided into three types of language
     3. markup language
             it is document based language   
             ex: html,xml ...etc 
+    **** javascript is the object based scripting language
+    some objects of javascript are 
+    1. windows
+    2.document
+    3.object
+    4.date
+    5. time
+    6.console
+we will use the javascript client and server side application
+software instalation
+---------------------
+1.node js have to install
+2.vs code(visual studio code ) have to instalation
+    
