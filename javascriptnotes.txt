@@ -1,0 +1,26 @@
+java script is a scripting language
+it is introduced by netscape company
+the current version of javascript is ES12
+ES stands for ECMA script
+javascript is used to build the web application
+by using angular,reactjs,node js, vuejs we can build the web application
+angular, reactjs,vuejs are the client side scripting language
+nodejs is the server side scripting   language  
+we can execute the javascript in two ways 
+    1.interpreter
+            it is used to execute from the browser
+    2. node tools
+            we can ececute form the node js 
+we can save the javascript by using  .js extention 
+by using <script> tag we can write the code in javascript
+** javascript is a synchronus execution that means code will execute line by line
+in computer there are divided into three types of language
+    1.programming languaga
+            it is a compiler based language
+            ex: c, c++,java, .net  etc..
+    2. scripting language
+            it is a interpreter based language  
+            ex: javascript , PERL, SHELL
+    3. markup language
+            it is document based language   
+            ex: html,xml ...etc 
