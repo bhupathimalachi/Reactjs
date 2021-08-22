@@ -21,6 +21,12 @@ console.log(10===10);
 console.log(100===10);
 /* in above line 100 is not equal to 10  so it is false
 same as compare with data type it  true */
+console.log(10=="ten")
+console.log(10===10);
+console.log("ten"==="ten");
+console.log("ten"=="ten");
+
+
 
 
 
