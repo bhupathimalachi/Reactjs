@@ -69,3 +69,18 @@ javascript datatypes are
 7.symbol
 
 to know about the datatype we have a oprator called "typeof"
+
+
+tricky question in undefined and null
+-----------------------------------------
+undefined means there is a varable but in that variable there is no value is called undefined
+ex:
+   person is there but there is no use for that person
+
+ex: 
+        you have a mobile phone it is not working is called undefined
+
+null means there is no variable and no data
+ex: person is not there
+ex: you dont have mobile phone is call null
+
