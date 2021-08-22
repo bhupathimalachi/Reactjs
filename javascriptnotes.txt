@@ -37,4 +37,35 @@ software instalation
 ---------------------
 1.node js have to install
 2.vs code(visual studio code ) have to instalation
-    
+predefined objects
+----------------------
+console is a predefined object
+log is a function
+
+variables:
+----------
+ variable is used to store the data
+ variable can store string, number, bollean, arrays, objects
+ we can declare the variables by using var, let or const
+ let and const keywords are introduced in "ES6"
+ variable contain a-z,A-Z, 0-9, $,_
+ variable should not start with number
+ 
+ syntax of the variable is
+ --------------------------
+var/let/const varaiable_name=value
+
+
+data types:
+------------
+data type is what type of going to store in the varaiable is called data type
+javascript datatypes are
+1.number
+2.string
+3.boolean
+4.undefined
+5.null
+6.bigint
+7.symbol
+
+to know about the datatype we have a oprator called "typeof"
