@@ -84,3 +84,18 @@ null means there is no variable and no data
 ex: person is not there
 ex: you dont have mobile phone is call null
 
+boolean data type
+-----------------
+1.true ---> 1
+2.false----> 0
+
+how to access the variable
+--------------------------------
+1.variable declaration ------------->var data;
+2.variable intilization ------------> data =100;
+3.variable access ----------------->console.log(data);
+
+** interview question
+        var keyword raised the varable hoisting
+        we can overcome varable hoisting with the let keyword
+
