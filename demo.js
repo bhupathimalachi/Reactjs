@@ -27,6 +27,25 @@ console.log("ten"==="ten");
 console.log("ten"=="ten");
 
 
+const var1="reactjs"
+//var1="node js";   //get eror assignment ot constant varable
+console.log(var1);
 
+//in array
+const arr_one=[10,20,30,40,50];
+arr_one[0]=100
+arr_one[4]=500
+for (let i=0;i<arr_one.length;i++)
+    console.log(arr_one[i]);
+
+
+    // in json
+const json_object= {key1:"react js",
+key2:"node js",
+key3:"mangodb"
+};
+json_object.key1="angular js"
+json_object.key2="malachi"
+    console.log(json_object);
 
 

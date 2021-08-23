@@ -172,3 +172,34 @@ let y2=400
 console.log(y1);//getting syntax error
 // var keywords allows the drulicate varable
 // let keywords not allows the duplicate variables
+
+
+//function concept
+function fun_one(){
+    return "hello"
+}
+ console.log(fun_one);// calling only function defination
+ console.log(fun_one());// calling value form function
+
+
+ function fun_two(){
+     return(fun_three);
+ };
+ function fun_three(){
+     return "this is function three";
+ };
+    console.log(fun_two);// calling only function fun-two defination
+    console.log(fun_two());// calling only function fun_three defination
+    console.log(fun_two()());// get out of the fun_three
+
+//in array
+function fun_four(){
+    return "isaacraj"
+}
+let arr=[];
+for(let i=0;i<5;i++){
+       arr.push(fun_four())
+}
+for(let i=0;i<arr.length;i++){
+    console.log(arr[i]);
+}

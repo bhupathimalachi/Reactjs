@@ -99,3 +99,45 @@ how to access the variable
         var keyword raised the varable hoisting
         we can overcome varable hoisting with the let keyword
 
+constant keyword
+-----------------
+ const keyword is introduced in "ES6" version
+ const keyword is used to declare the variables
+ reinitalization is not possible in const keyword
+
+ in array 
+  array defines the collection of hetrogenious elements
+ by using the const keyword we can change the internal elements in an array
+ we can not change the entire array 
+ 
+ in json objects
+   json elements can be changed
+   but we can not change the entire json object
+how we can declarre the json object
+        json_object={key1:"hello", key2="hello1",key3="hello3"}
+
+
+function:
+------------------
+1.perticular business logic is called function
+function are reused the business logic
+function keyword is used to create the function
+function are classified into two partition
+        1.function declaration/defination
+        2. function calling
+function declaration
+---------------------
+function declaration is used to decalre the function 
+syntax:
+        function function_name(arg1,arg2,arg3.......arg n){
+                business logic
+        }
+
+function calling:
+-----------------
+function calling is used to call the function declaration
+ syntax:
+        function_name(parm1,parm2,parm3.......parm n)
+        
+
+
