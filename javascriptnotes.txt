@@ -139,5 +139,52 @@ function calling is used to call the function declaration
  syntax:
         function_name(parm1,parm2,parm3.......parm n)
         
+anonymous function
+-------------------
+the function with out name is called anonymous function
+it is introduced in "ES6" version
+syntax of the anonymous function is ()=>{}
+function syntax is two types
+1. function defination
+2.function calling
+
+function declaration-
+--------------------
+let varname=(arg1,arg2,arg3.....argn)=>{
+        business logic ;
+}
+
+function calling
+----------------
+varname(para1,para2,para3 ..... para n);
+
+spread operator(...argumnet)
+---------------------------
+we can add more then one value
+
+undefined value is not refelects the orginal value in the function of default parameter function
+
+null delets the orginal in default parameter function
 
 
+arrays concept:
+---------------
+collection of hetrogenious elements is called an array
+array can difine with "[]"
+we will access the array elements with the help of an indexs
+index start form "0"
+
+JSON objects
+------------
+JSON STANDS FOR JAVA SCRIPT OBJECT NOTATION
+JSON IS ALSO CALLED AS JAVASCRIPT objects
+JSON IS USED TO TRANSFER THE DATA OVER THE NETWORK
+JSON IS A LIGHT WEIGHT
+
+HOW TO REPRESENT THE OBJECT IN JSON
+------------------------------------
+WE CAN REPRESENT THE OBJECT WITH THE HELP OF "{ }"
+WE CAN REPRESENT THE ARRAYS WITH THE HELP OF "[]"
+WE CAN REPRESENT THE DATA WITH THE HELP OF "KEY & VALUES" PAIRS
+KEY & VALUES SEPERATED WITH " : "
+KEY & VALUES PAIRS SEPARATED BY USING " , "
