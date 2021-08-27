@@ -1,0 +1,120 @@
+<!-- 
+    1.defination of promises:
+            communication between the producer and the consumer is called the promises
+    2. producer can be create by the "promises"
+    3. consumer can be "consumes" the "promises"
+    4.producer create the the promises with the help of "promise" class
+    5. consumer consumes the promises with the help of "then()" (old method)  and "async & await" keyword (newmethod)
+-->
+<!--
+<script>
+    let promise1= new Promise((resolve,reject)=>{
+        resolve("welcome to javascript promises");
+    });
+promise1.then((posres)=>{
+    console.log(posres);
+
+},(errres)=>{
+    console.log(errres);
+});
+</script>
+-->
+<script>
+    let promise1=new Promise((resolve,reject)=>{setTimeout(()=>{
+        resolve("this program is used to display the message immediatly");},0)
+    });
+    let promise2=new Promise((resolve,reject)=>{setTimeout(()=>{
+        resolve("this program is used to display the message after 5 seconds");},5000)
+    });
+    let promise3=new Promise((resolve,reject)=>{setTimeout(()=>{
+        resolve("this program is used to display the message after 10 seconds");},10000)
+    });
+    let promise4=new Promise((resolve,reject)=>{setTimeout(()=>{
+        reject("error");
+    },15000)
+});
+   
+    
+   
+//consuming the pomises
+    promise1.then((posres)=>{
+        console.log(posres)
+
+    },(errres)=>{
+        console.log(errres)
+    });
+    promise2.then((posres)=>{
+        console.log(posres)
+
+    },(errres)=>{
+        console.log(errres)
+    });
+    promise3.then((posres)=>{
+        console.log(posres)
+
+    },(errres)=>{
+        console.log(errres)
+    });
+    promise4.then((posres)=>{
+        console.log(posres)
+
+    },(errres)=>{
+        console.log(errres)
+    });
+
+
+    // consuming the promisse at a time 
+    Promise.all([promise1,promise2,promise3,promise4]).then((posres)=>{
+        console.log(posres);
+    },(errres)=>{
+        console.log(errres);
+    });
+
+    Promise.allSettled([promise1,promise2,promise3,promise4]).then((posres)=>{
+        console.log(posres);
+    },(errres)=>{
+        console.log(errres);
+    });
+
+    Promise.race([promise1,promise2,promise3,promise4]).then((posres)=>{
+        console.log(posres);
+    },(errres)=>{
+        console.log(errres);
+    });
+
+
+    async function myfun(){
+        let res1=await promise1;
+        
+       
+                
+        console.log(res1);
+      
+      
+    };
+    myfun();
+
+
+
+    async function fun_two(){
+        let res2=await promise2;
+        console.log(res2);
+    }
+    fun_two();
+
+
+      async function fun_three(){
+        let res3=await promise3;
+        console.log(res3);
+    }
+    fun_three();
+
+    
+    //async function fun_four(){
+      //  let res4=await promise4;
+        //console.log(res4);
+    //}
+    //fun_four();
+    //
+
+</script>
