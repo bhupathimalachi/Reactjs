@@ -188,3 +188,17 @@ WE CAN REPRESENT THE ARRAYS WITH THE HELP OF "[]"
 WE CAN REPRESENT THE DATA WITH THE HELP OF "KEY & VALUES" PAIRS
 KEY & VALUES SEPERATED WITH " : "
 KEY & VALUES PAIRS SEPARATED BY USING " , "
+
+
+promise topic:
+------------
+1.defination of promises:
+            communication between the producer and the consumer is called the promises
+    2. producer can be create by the "promises"
+    3. consumer can be "consumes" the "promises"
+    4.producer create the the promises with the help of "promise" class
+    5. consumer consumes the promises with the help of "then()" (old method)  and "async & await" keyword (newmethod)
+
+callback: 
+----------------- 
+passing one function two another function is called as callback
