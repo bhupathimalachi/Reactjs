@@ -202,3 +202,19 @@ promise topic:
 callback: 
 ----------------- 
 passing one function two another function is called as callback
+the callback function is depends upon another function so it is called as callback hell
+the remedy (alternative) of the callback hell is "promise"
+
+slice:
+--------
+slice:  slice function is used to get the middle of an array "slice(included , excluded)";
+splice: splice function is used to delete the middle of an aray "splice(index, numberofelements)
+push:   push funcction is used to add element at last
+unshift: unshift function is used to add element at first
+pop: pop function is used to delet element at last
+shift:  shift is used to delete element at first
+findIndex: findIndex function is use to know the index of an element
+spread operato(...arg1):        spread operator is used to combine the all arrays we can enter more then one value
+from function: from function is used to convert string into an array
+reverse function:reverse function is used to reverse the string array
+join function: join function is used to delete the whitespace between the string array
