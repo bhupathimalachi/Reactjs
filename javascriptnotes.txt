@@ -1,3 +1,6 @@
+                reactjs
+introduction for javascript
+-----------------------------------------------------------------------------------------------------------
 java script is a scripting language
 it is introduced by netscape company
 the current version of javascript is ES12
@@ -34,16 +37,16 @@ in computer there are divided into three types of language
     6.console
 we will use the javascript client and server side application
 software instalation
----------------------
+-------------------------------------------------------------------------------------------------------------
 1.node js have to install
 2.vs code(visual studio code ) have to instalation
 predefined objects
-----------------------
+----------------------------------------------------------------------------------------------------------------
 console is a predefined object
 log is a function
 
 variables:
-----------
+---------------------------------------------------------------------------------------------------------
  variable is used to store the data
  variable can store string, number, bollean, arrays, objects
  we can declare the variables by using var, let or const
@@ -52,12 +55,12 @@ variables:
  variable should not start with number
  
  syntax of the variable is
- --------------------------
+ ---------------------------------------------------------------------------------------------------------
 var/let/const varaiable_name=value
 
 
 data types:
-------------
+----------------------------------------------------------------------------------------
 data type is what type of going to store in the varaiable is called data type
 javascript datatypes are
 1.number
@@ -72,7 +75,7 @@ to know about the datatype we have a oprator called "typeof"
 
 
 tricky question in undefined and null
------------------------------------------
+-----------------------------------------------------------------------------------------------------
 undefined means there is a varable but in that variable there is no value is called undefined
 ex:
    person is there but there is no use for that person
@@ -85,12 +88,12 @@ ex: person is not there
 ex: you dont have mobile phone is call null
 
 boolean data type
------------------
+----------------------------------------------------------------------------------------------------
 1.true ---> 1
 2.false----> 0
 
 how to access the variable
---------------------------------
+-----------------------------------------------------------------------------------------------------
 1.variable declaration ------------->var data;
 2.variable intilization ------------> data =100;
 3.variable access ----------------->console.log(data);
@@ -100,7 +103,7 @@ how to access the variable
         we can overcome varable hoisting with the let keyword
 
 constant keyword
------------------
+-------------------------------------------------------------------------------------------------
  const keyword is introduced in "ES6" version
  const keyword is used to declare the variables
  reinitalization is not possible in const keyword
@@ -118,7 +121,7 @@ how we can declarre the json object
 
 
 function:
-------------------
+----------------------------------------------------------------------------------------------------
 1.perticular business logic is called function
 function are reused the business logic
 function keyword is used to create the function
@@ -126,7 +129,7 @@ function are classified into two partition
         1.function declaration/defination
         2. function calling
 function declaration
----------------------
+----------------------------------------------------------------------------------------------
 function declaration is used to decalre the function 
 syntax:
         function function_name(arg1,arg2,arg3.......arg n){
@@ -134,13 +137,13 @@ syntax:
         }
 
 function calling:
------------------
+-----------------------------------------------------------------------------------------
 function calling is used to call the function declaration
  syntax:
         function_name(parm1,parm2,parm3.......parm n)
         
 anonymous function
--------------------
+--------------------------------------------------------------------------------------------
 the function with out name is called anonymous function
 it is introduced in "ES6" version
 syntax of the anonymous function is ()=>{}
@@ -149,17 +152,17 @@ function syntax is two types
 2.function calling
 
 function declaration-
---------------------
+--------------------------------------------------------------------------------------------
 let varname=(arg1,arg2,arg3.....argn)=>{
         business logic ;
 }
 
 function calling
-----------------
+---------------------------------------------------------------------------------------------
 varname(para1,para2,para3 ..... para n);
 
 spread operator(...argumnet)
----------------------------
+--------------------------------------------------------------------------------------------------
 we can add more then one value
 
 undefined value is not refelects the orginal value in the function of default parameter function
@@ -168,21 +171,21 @@ null delets the orginal in default parameter function
 
 
 arrays concept:
----------------
+-----------------------------------------------------------------------------------------
 collection of hetrogenious elements is called an array
 array can difine with "[]"
 we will access the array elements with the help of an indexs
 index start form "0"
 
 JSON objects
-------------
+----------------------------------------------------------------------------------------
 JSON STANDS FOR JAVA SCRIPT OBJECT NOTATION
 JSON IS ALSO CALLED AS JAVASCRIPT objects
 JSON IS USED TO TRANSFER THE DATA OVER THE NETWORK
 JSON IS A LIGHT WEIGHT
 
 HOW TO REPRESENT THE OBJECT IN JSON
-------------------------------------
+-----------------------------------------------------------------------------------------
 WE CAN REPRESENT THE OBJECT WITH THE HELP OF "{ }"
 WE CAN REPRESENT THE ARRAYS WITH THE HELP OF "[]"
 WE CAN REPRESENT THE DATA WITH THE HELP OF "KEY & VALUES" PAIRS
@@ -191,7 +194,7 @@ KEY & VALUES PAIRS SEPARATED BY USING " , "
 
 
 promise topic:
-------------
+-----------------------------------------------------------------------------------------------------
 1.defination of promises:
             communication between the producer and the consumer is called the promises
     2. producer can be create by the "promises"
@@ -200,21 +203,39 @@ promise topic:
     5. consumer consumes the promises with the help of "then()" (old method)  and "async & await" keyword (newmethod)
 
 callback: 
------------------ 
+----------------- --------------------------------------------------------------------------------
 passing one function two another function is called as callback
 the callback function is depends upon another function so it is called as callback hell
 the remedy (alternative) of the callback hell is "promise"
 
 slice:
---------
-slice:  slice function is used to get the middle of an array "slice(included , excluded)";
-splice: splice function is used to delete the middle of an aray "splice(index, numberofelements)
-push:   push funcction is used to add element at last
-unshift: unshift function is used to add element at first
-pop: pop function is used to delet element at last
-shift:  shift is used to delete element at first
-findIndex: findIndex function is use to know the index of an element
-spread operato(...arg1):        spread operator is used to combine the all arrays we can enter more then one value
-from function: from function is used to convert string into an array
-reverse function:reverse function is used to reverse the string array
-join function: join function is used to delete the whitespace between the string array
+-----------------------------------------------------------------------------------------------
+"slice:"  slice function is used to get the middle of an array "slice(included , excluded)";
+s"plice:" splice function is used to delete the middle of an aray "splice(index, numberofelements)
+"push:"   push funcction is used to add element at last
+"unshift:" unshift function is used to add element at first
+"pop:" pop function is used to delet element at last
+"shift:"  shift is used to delete element at first
+"findIndex:" findIndex function is use to know the index of an element
+"spread operato(...arg1): "       spread operator is used to combine the all arrays we can enter more then one value
+"from function:" from function is used to convert string into an array
+'reverse function:'reverse function is used to reverse the string array
+"join function:" join function is used to delete the whitespace between the string array
+"delete function: "       delete function is used to delete the one element but it is a bug
+"map function:"   map function is used to manipulate the each and every element in an array
+"filter function ":filter function is used to apply the condition
+"reduce function:" reduce function is used to summation of an array from left to right side
+"reduceRight function:"   reduceRight function is used to summation of an array from right to left side
+"sort function: "         sort function is used to sort an array in assending(return num1-num2)/decending order(return num1+num2) 
+
+
+
+
+constructor: 
+=================================================================================================================
+// examples on constructor
+/* 
+    class: class is a collection of datamembers (variables) member function 
+    before "ES6" version  contians CONSTRUCT FUNCTION 
+    in constructor function all the members (data members and member function) will start with "this" keyword"
+    we can create obhect to the class by using "new" keyword*/
