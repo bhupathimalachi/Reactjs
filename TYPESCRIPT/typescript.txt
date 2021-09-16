@@ -1,0 +1,83 @@
+reactjs
+---------------------
+react is the library,javascript library
+it is realsed by facebook
+we can develop web application
+web application developed in two ways
+1.jsx
+    jsx stands for javascript+xml
+    it is a scripting language
+    it won't fallows the oops concept
+2.tsx
+    tsx stands for typescript+xml
+    it is a programmng language 
+    introduced by facebook
+    it fallows the oops concept
+
+
+type script:
+-----------------------------------------------
+type script is the programming (compiler based language) language
+typwscript given by microsoft.
+typescript is used to bild the "ReactJS","NodeJS","Angular" application
+typescript is fallows the object oriented programming languaga
+    example:
+                inhertance
+                polymorphism
+                abstraction 
+                encapuslation
+type script is also called as "superset of javascript"
+we will save the typescript file with ".ts" extension
+visual studio code is the suggestable IDE to build the type script
+visual studio code als calles as vscode
+vscode is the open source IDE provided by microsoft
+browser can not understand type script
+so as a type script developer we neet to convert typwscript to equalent java script
+conversion from typescript to equalent javascript called as transpilation
+"TSC" tools helps tp oerform transpilation
+"TSC" stands for typescript compiler
+"TSC" tool available in typwscript software.
+NPM stands for node packaging manager
+
+download and install nodejs
+instal typescript
+>> npm install -g typescript
+npm stands for noe packagingmanager
+npm present in NodeJS
+-g stands for global installation
+
+install vusual studio code
+
+in cmd prompt
+node -v
+npm -v
+tsc --version
+
+
+how todo transpilation
+------------------------------
+>>> tsc demo.ts
+>>> node demo.js
+
+variable
+---------------------------
+varable is used to store the data
+string, number, boolean, indefined, null etc.,
+ "var","let","const"
+ "let/const" is introduced in ES6
+ a-z,A-Z,0-9,$ and _ 
+ varable does not start with "number"
+ syntax:
+    let variablename:datatype="value"
+
+
+string:
+-------------------------------
+collecction of characters called as string
+" ",' ',` ` and(` ` backtick operator ---> ES6)
+backtick operator is used to define the paragraphs
+it is also called as template literals
+
+
+
+
