@@ -30,3 +30,11 @@ var mern1 = function (arg1, arg2, arg3) {
     console.log(arg1(), arg2(), arg3());
 };
 mern1(function () { return "reactjs"; }, function () { return "nodejs"; }, function () { return "MonogoDB"; });
+console.log("\n sixth program");
+var arr1 = [];
+for (var i = 0; i < 10; i++) {
+    arr1.push(function () { return "hello"; });
+}
+for (var i = 0; i < arr1.length; i++) {
+    console.log(arr1[i]());
+}

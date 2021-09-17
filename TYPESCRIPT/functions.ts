@@ -34,3 +34,14 @@ let mern1=(arg1:any,arg2:any,arg3:any):any=>{
     console.log(arg1(),arg2(),arg3());
 };
 mern1(()=>{return "reactjs"},()=>{return "nodejs"},()=>{return "MonogoDB"});
+
+
+console.log("\n sixth program");
+let arr1:any=[];
+for(let i:number=0;i<10;i++)
+{
+    arr1.push(():any=>{return "hello"});
+}
+for(let i:number=0;i<arr1.length;i++){
+    console.log(arr1[i]());
+}
