@@ -25,3 +25,8 @@ var outer = function () {
     };
 };
 console.log(outer()()().key());
+console.log("\n fifth program");
+var mern1 = function (arg1, arg2, arg3) {
+    console.log(arg1(), arg2(), arg3());
+};
+mern1(function () { return "reactjs"; }, function () { return "nodejs"; }, function () { return "MonogoDB"; });

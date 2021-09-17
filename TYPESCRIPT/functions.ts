@@ -28,3 +28,9 @@ let outer=():any=>{
     }
 };
 console.log(outer()()().key());
+
+console.log("\n fifth program");
+let mern1=(arg1:any,arg2:any,arg3:any):any=>{
+    console.log(arg1(),arg2(),arg3());
+};
+mern1(()=>{return "reactjs"},()=>{return "nodejs"},()=>{return "MonogoDB"});
