@@ -78,6 +78,40 @@ collecction of characters called as string
 backtick operator is used to define the paragraphs
 it is also called as template literals
 
+functions:
+--------------------------------------------
+particual bussiness logic called as functions
+functions are used to reuse the business logic 
+the function without name called as anonymous function
+anonymous functions also called as arrow function
+it is introduced in ES6
+
+syntax:
+-------
+1.function defination
+2. function calling
+
+function defination
+-------------------
+let variable:datatype=(arg1:dataype,arg2:datatype....... argn:datatype):returntype{
+    business logic;
+}
+
+function calling
+-------------------
+variablename(parm1,param2,.......paramn);
 
 
+class:
+---------------------------------------------------------------------------------------------------------------
+class is a collection of variable and function called as class
+we will create the class by using "class" keyword
+we will create the object to the class by using "new" keyword
+typscript supports following midifires
+1.public
+2. private
+3.protected
+ private modifier suggestable to variable
+ public modifier suggestable to functionswe will define the constructor by using "constructor" keyword
+ 
 
