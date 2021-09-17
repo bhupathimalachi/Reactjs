@@ -113,5 +113,19 @@ typscript supports following midifires
 3.protected
  private modifier suggestable to variable
  public modifier suggestable to functionswe will define the constructor by using "constructor" keyword
- 
+
+
+ readonly 
+ -------------------------------------------------------------------------------------------------------------
+ readonly we can read the data by won't modify
+
+
+interface:
+-----------------------------------------------------------
+you know only declaration
+if we don't know inplementation we will chooose interfaces.
+we will define/declare interface by using "interface" keyword
+implementation provided by either "JSON" or "CLASS"
+
+
 
