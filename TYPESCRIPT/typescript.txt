@@ -128,4 +128,36 @@ we will define/declare interface by using "interface" keyword
 implementation provided by either "JSON" or "CLASS"
 
 
+abstraction 
+-----------------------------------------------------------------
+id we know the partial implementations the we will go abstraction/abstract classes 
+
+
+polymorphism
+-------------------------------------------
+behaves like many called as polymorphism
+1.function overriding
+    overriding the parent class functionality wiht child class functionality called as function overridint
+
+2.function overloading
+    more than one function with different datatypes calles as function overloading
+
+module:
+-----------------------------------------------
+collection of module is called project
+execution process 
+>> tsc --module commonjs module.ts
+>> node module.js
+
+
+
+interview questions:
+-------------------
+enum:
+-----
+we can create our own data type/custom data type is called enum
+
+
+
+
 
