@@ -157,6 +157,13 @@ enum:
 -----
 we can create our own data type/custom data type is called enum
 
+namespace
+-----------------------------------------------------------------------------------
+we use common functionality with in a project is calles as namespace
+we can use common functionality out side of the project is called as module
+namespace are "internal" modules.
+we can create namespaces by using "namespace" keyword
+
 
 
 
